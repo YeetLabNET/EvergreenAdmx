@@ -669,7 +669,7 @@ function Get-WindowsDownloadId {
             break
         }
         11 {
-            return (@( @{ '21H2' = '103507' }, @{ '22H2' = '104593' }, @{ '23H2' = '105667' }, @{ '24H2' = '106254' }, @{ '25H2' = '108394' } ).$WindowsFeatureVersion)
+            return (@( @{ '21H2' = '103507' }, @{ '22H2' = '104593' }, @{ '23H2' = '105667' }, @{ '24H2' = '106254' }, @{ '25H2' = '108428' } ).$WindowsFeatureVersion)
             break
         }
         2022 {
