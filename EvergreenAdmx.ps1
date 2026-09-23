@@ -379,7 +379,7 @@ Aliases such as ProductKey short names are accepted (e.g. 'BISF' for 'BIS-F').
         }
     }
 
-    return , @($resolved.ToArray())
+    return $resolved.ToArray()
 }
 
 # Validate feature version based on Windows version
